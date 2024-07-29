@@ -18,7 +18,7 @@ const MenuItem = ( { category, current, children } ) => {
   return (
     <Link 
     className={clsx(
-      "rounded-md px-2 py-1 capitalize transition-colors hover:bg-gray-200",
+      "rounded-md px-2.5 py-1 capitalize transition-colors hover:bg-gray-200",
       {
         "font-bold": category === current,
       }
